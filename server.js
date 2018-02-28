@@ -29,7 +29,7 @@ var htmltemplate =`
     <html>
     <head>
         <title>
-            $(title) </title>
+            ${title} </title>
           <link href="/ui/style.css" rel="stylesheet" />
        
     </head>
@@ -39,11 +39,11 @@ var htmltemplate =`
             <a href="/">Home</a>
         </div>
         <hr/>
-        <h3>$(heading)</h3>
-        <div>$(date)</div>
+        <h3>${heading}</h3>
+        <div>${date}</div>
         <div>
             
-            $(content)
+            ${content}
         </div>
         </div>
     </body>
